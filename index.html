@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5ecdc">
+  <meta name="description" content="DBY 的个人手账：一个在书页和耳机之间慢慢生活的人，记录读过的书、听过的声音和一点想分享的心情。">
+  <meta property="og:title" content="DBY 的手账 · 慢慢读，慢慢听">
+  <meta property="og:description" content="书页与耳机之间，是我的两个平行宇宙。">
+  <meta property="og:type" content="website">
+  <title>DBY 的手账 · 慢慢读，慢慢听</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="DBY 的手账，回到首页">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-name">DBY<span class="brand-sub">的手账</span></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="主导航">
+        <a class="nav-link" href="#top">首页</a>
+        <a class="nav-link" href="#about">关于</a>
+        <a class="nav-link" href="#recommend">推荐</a>
+        <a class="nav-link" href="#contact">联系</a>
+      </nav>
+
+      <div class="header-side">
+        <span class="header-date" aria-label="今天的日期">
+          <span id="today-date">10 / 18</span>
+          <span class="header-date-dot" aria-hidden="true"></span>
+          <span id="today-weekday">星期日</span>
+        </span>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="打开菜单">
+          <span class="nav-toggle-text">菜单</span>
+          <span class="nav-toggle-bars" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO / 自我介绍 ============ -->
+    <section class="hero" id="top">
+      <div class="hero-card">
+        <span class="tape hero-tape-1" aria-hidden="true"></span>
+        <span class="tape hero-tape-2" aria-hidden="true"></span>
+        <span class="hero-hole hero-hole-1" aria-hidden="true"></span>
+        <span class="hero-hole hero-hole-2" aria-hidden="true"></span>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-star" aria-hidden="true"></span>
+              HELLO, NICE TO MEET YOU
+            </p>
+
+            <h1 class="hero-title">
+              <span class="hero-greet">你好，我是</span>
+              <span class="hero-name">DBY<span class="accent-dot">.</span></span>
+            </h1>
+
+            <p class="identity">阅读者 <span>/</span> 声音收集者 <span>/</span> 生活观察员</p>
+
+            <p class="hero-bio">
+              喜欢在书页和耳机之间来回切换，也喜欢把想不明白的事写下来，慢慢想。
+              这里是我的公开手账，收着最近读过的书、听过的声音，和一些还没想明白的念头。
+            </p>
+
+            <ul class="hero-tags" aria-label="关键词标签">
+              <li class="tag tag-a"># 长期主义</li>
+              <li class="tag tag-b"># 随手记录</li>
+              <li class="tag tag-c"># 保持好奇</li>
+            </ul>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#recommend">
+                查看推荐
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+              </a>
+              <a class="btn btn-ghost" href="#contact">
+                联系我
+                <span class="btn-dot" aria-hidden="true"></span>
+              </a>
+            </div>
+
+            <p class="hero-scroll">
+              <svg viewBox="0 0 44 30" aria-hidden="true"><path d="M2 8c10 0 14 8 20 14M22 22c-5-5-7-11-6-17M22 22c6-2 11-6 15-12"/></svg>
+              下滑，翻翻我的手账
+            </p>
+          </div>
+
+          <div class="hero-art">
+            <div class="photo-wrap">
+              <span class="tape photo-tape" aria-hidden="true"></span>
+              <figure class="polaroid">
+                <div class="avatar-frame">
+                  <img src="assets/2.png" alt="田野" width="480" height="560">
+                </div>
+                <figcaption>DBY <span>·</span> 拥抱你的生活吧</figcaption>
+              </figure>
+
+              <svg class="round-stamp" viewBox="0 0 132 132" aria-hidden="true">
+                <defs>
+                  <path id="stampPath" d="M66 66m-46 0a46 46 0 1 1 92 0a46 46 0 1 1 -92 0"/>
+                </defs>
+                <circle cx="66" cy="66" r="59" fill="none" stroke="currentColor" stroke-width="2.2"/>
+                <circle cx="66" cy="66" r="54" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 5"/>
+                <text class="stamp-top" font-size="9.5" letter-spacing="2.4">
+                  <textPath href="#stampPath" startOffset="2%">KEEP CURIOUS · READ SLOWLY · LISTEN WELL ·</textPath>
+                </text>
+                <text class="stamp-main" x="66" y="64" text-anchor="middle" font-size="26">DBY</text>
+                <text class="stamp-sub" x="66" y="82" text-anchor="middle" font-size="9" letter-spacing="2">HANDMADE</text>
+              </svg>
+            </div>
+
+            <blockquote class="motto-card">
+              <span class="tape motto-tape" aria-hidden="true"></span>
+              <p class="motto-label">MY MOTTO <span>座右铭</span></p>
+              <p class="motto-text">以指喻指之非指，<br>不若以非指喻指之非指也。</p>
+              <p class="motto-trans">与其绕着概念打转，不如退一步，看看事情本身。</p>
+              <p class="motto-hand">—— 别一味地钻牛角尖。</p>
+            </blockquote>
+
+            <svg class="doodle-whirl" viewBox="0 0 84 84" aria-hidden="true">
+              <path d="M10 44c12-26 43-31 60-13 12 13 2 32-13 29-12-2-17-17-6-24 10-6 23 2 24 14 1 13-9 23-22 25" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-edge-note" aria-hidden="true">
+          <span>EST. 2026</span>
+          <span class="edge-note-line"></span>
+          <span>一页一页，慢慢来</span>
+        </div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>READ A LITTLE</span><i>✦</i>
+          <span>LISTEN CLOSELY</span><i>✦</i>
+          <span>STAY CURIOUS</span><i>✦</i>
+          <span>WRITE IT DOWN</span><i>✦</i>
+          <span>SLOW IS FINE</span><i>✦</i>
+          <span>READ A LITTLE</span><i>✦</i>
+          <span>LISTEN CLOSELY</span><i>✦</i>
+          <span>STAY CURIOUS</span><i>✦</i>
+          <span>WRITE IT DOWN</span><i>✦</i>
+          <span>SLOW IS FINE</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / 关于这本手账 ============ -->
+    <section class="about section" id="about">
+      <div class="section-kicker reveal">
+        <span class="kicker-no">01</span>
+        <span class="kicker-label">ABOUT ME</span>
+        <span class="kicker-rule" aria-hidden="true"></span>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <h2 class="section-title">把喜欢的，<br><em>认真收好。</em></h2>
+          <p class="about-lead">
+            我是 DBY。喜欢在书页和耳机之间来回切换，也喜欢把想不明白的事写下来，慢慢想。
+          </p>
+          <p>
+            这个网站没有复杂的算法，只有 HTML、CSS、JS，和一点想分享的心情。
+          </p>
+          <p>
+            如果一定要贴标签：好奇、慢热、偶尔钻牛角尖，但会记得把自己拽回来。
+          </p>
+          <a class="text-link" href="#recommend">
+            <span>去看看我的推荐</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+          </a>
+        </div>
+
+        <div class="about-board reveal" aria-label="此刻的 DBY">
+          <div class="index-card">
+            <span class="tape index-tape" aria-hidden="true"></span>
+            <div class="index-head">
+              <span>此刻 / NOW</span>
+              <span class="index-date">OCT. 2026</span>
+            </div>
+            <ul class="now-list">
+              <li>
+                <span class="now-label">在读</span>
+                <span class="now-value">《庄子》</span>
+                <span class="now-dot now-dot-read" aria-hidden="true"></span>
+              </li>
+              <li>
+                <span class="now-label">在听</span>
+                <span class="now-value">《我用什么把你留住》</span>
+                <span class="now-dot now-dot-listen" aria-hidden="true"></span>
+              </li>
+              <li>
+                <span class="now-label">在练</span>
+                <span class="now-value">把想法写下来</span>
+                <span class="now-dot now-dot-do" aria-hidden="true"></span>
+              </li>
+            </ul>
+            <p class="index-note">“不急着成为谁，<br>先好好成为自己。”</p>
+            <span class="index-sign">— 写给自己的话</span>
+          </div>
+
+          <div class="sticky-note">
+            <span class="sticky-pin" aria-hidden="true"></span>
+            <p>慢慢来，<br>比较快。</p>
+            <span class="sticky-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="10"/><path d="M11 18c1.5 2.5 3.3 3.8 5 3.8s3.5-1.3 5-3.8"/><path d="M12.5 12.5h.01M19.5 12.5h.01"/></svg>
+            </span>
+          </div>
+
+          <svg class="about-doodle" viewBox="0 0 88 88" aria-hidden="true">
+            <path d="M44 8l7 24 24 7-24 7-7 24-7-24-24-7 24-7Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M14 67c7 2 13 7 16 14M76 19c-5 1-9 4-12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RECOMMEND / 推荐阅读 & 推荐收听 ============ -->
+    <section class="picks section" id="recommend">
+      <div class="section-kicker reveal">
+        <span class="kicker-no">02</span>
+        <span class="kicker-label">MY PICKS</span>
+        <span class="kicker-rule" aria-hidden="true"></span>
+      </div>
+
+      <header class="picks-head reveal">
+        <div>
+          <h2 class="section-title">书页与<em>耳机</em>之间</h2>
+          <p class="section-sub">六件最近想安利给你的小事。点开卡片，里面有我的私心推荐语。</p>
+        </div>
+        <span class="picks-stamp" aria-hidden="true">DBY'S<br>FAVORITES<br><i>vol. 01</i></span>
+      </header>
+
+      <div class="rec-columns">
+        <!-- 推荐阅读 -->
+        <div class="rec-column reveal">
+          <div class="column-head">
+            <h3 class="column-title">
+              <span class="column-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><path d="M5 6.5C10 5 14 6 16 8.5v18C13.5 24 10 23.2 5 24.5ZM27 6.5C22 5 18 6 16 8.5v18c2.5-2.5 6-3.3 11-2Z"/><path d="M9 12c2-0.7 3.6-0.6 5 0.2M9 17c2-0.7 3.6-0.6 5 0.2M23 12c-2-0.7-3.6-0.6-5 0.2M23 17c-2-0.7-3.6-0.6-5 0.2"/></svg>
+              </span>
+              推荐阅读
+            </h3>
+            <span class="column-count">READING · 03</span>
+          </div>
+
+          <div class="rec-list">
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看《庄子》的推荐详情" data-rec="zhuangzi" style="--tilt:-0.5deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-book" style="--cover:#9a7449;--cover-ink:#fff6e3" aria-hidden="true">
+                <span class="book-spine"></span>
+                <span class="book-char">庄</span>
+                <span class="book-rule"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">BOOK 01 · 哲学随笔</span>
+                <span class="rec-title">《庄子》</span>
+                <span class="rec-desc">每次钻牛角尖的时候，就翻两页。它不负责给答案，只负责把问题放宽一点。</span>
+                <span class="rec-cta">翻开这页
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看《明朝那些事儿》的推荐详情" data-rec="mingchao" style="--tilt:0.45deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-book" style="--cover:#a3623f;--cover-ink:#fff6e3" aria-hidden="true">
+                <span class="book-spine"></span>
+                <span class="book-char">明</span>
+                <span class="book-rule"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">BOOK 02 · 通俗历史</span>
+                <span class="rec-title">《明朝那些事儿》<small>当年明月</small></span>
+                <span class="rec-desc">把明朝两百多年的兴衰写成一部能笑出声的连续剧。历史不轻飘，却可以读得很尽兴。</span>
+                <span class="rec-cta">翻开这页
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看《白鹿原》的推荐详情" data-rec="bailuyuan" style="--tilt:-0.25deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-book" style="--cover:#6f6047;--cover-ink:#f8f0dc" aria-hidden="true">
+                <span class="book-spine"></span>
+                <span class="book-char">白</span>
+                <span class="book-rule"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">BOOK 03 · 当代长篇小说</span>
+                <span class="rec-title">《白鹿原》<small>陈忠实</small></span>
+                <span class="rec-desc">渭河平原上两家人、几代人的命运，被时代一层层推着走。厚重，但走进去就很难出来。</span>
+                <span class="rec-cta">翻开这页
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+          </div>
+        </div>
+
+        <div class="column-divider" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+
+        <!-- 推荐收听 -->
+        <div class="rec-column reveal">
+          <div class="column-head">
+            <h3 class="column-title">
+              <span class="column-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><path d="M7 19v-4a9 9 0 0 1 18 0v4"/><path d="M7 18H4.5v6H10v-8H7ZM25 18h2.5v6H22v-8h3Z"/><path d="M25 24c0 3-2.5 4-6 4"/></svg>
+              </span>
+              推荐收听
+            </h3>
+            <span class="column-count">LISTENING · 03</span>
+          </div>
+
+          <div class="rec-list">
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看《我用什么把你留住》的推荐详情" data-rec="liuzhu" style="--tilt:0.4deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-vinyl" style="--label:#d2a13f" aria-hidden="true">
+                <span class="vinyl-hole"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">MUSIC 01 · 独立流行</span>
+                <span class="rec-title">《我用什么把你留住》<small>福禄寿</small></span>
+                <span class="rec-desc">把告别唱得很轻，又很重。每次听到那句“我用什么把你留住”，都像有人轻轻按住了时间的肩膀。</span>
+                <span class="rec-cta">戴上耳机
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看 Merry Christmas Mr. Lawrence 的推荐详情" data-rec="merrychristmas" style="--tilt:-0.35deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-vinyl" style="--label:#798a6f" aria-hidden="true">
+                <span class="vinyl-hole"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">MUSIC 02 · 电影原声</span>
+                <span class="rec-title rec-title-en">Merry Christmas Mr. Lawrence<small>坂本龙一</small></span>
+                <span class="rec-desc">没有一句歌词，却像把一场雪、一次告别和一点祝福同时放进钢琴里。适合在安静的冬天反复听。</span>
+                <span class="rec-cta">戴上耳机
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+
+            <button class="rec-card" type="button" aria-haspopup="dialog" aria-label="查看《琵琶行》的推荐详情" data-rec="pipa" style="--tilt:0.3deg"><span class="rec-inner">
+              <span class="rec-mark rec-mark-vinyl" style="--label:#a8654d" aria-hidden="true">
+                <span class="vinyl-hole"></span>
+              </span>
+              <span class="rec-content">
+                <span class="rec-kicker">MUSIC 03 · 古风诗词</span>
+                <span class="rec-title">《琵琶行》<small>奇然</small></span>
+                <span class="rec-desc">把白居易的长诗唱成歌。“同是天涯沦落人”一出来，课本里的句子忽然就有了温度。</span>
+                <span class="rec-cta">戴上耳机
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 5l6 7-6 7"/></svg>
+                </span>
+              </span>
+            </span></button>
+          </div>
+        </div>
+      </div>
+
+      <p class="rec-hint reveal">
+        <span class="rec-hint-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 24"><path d="M3 5c9 1 15 5 20 12M23 17l-2-8M23 17l-8-1"/></svg>
+        </span>
+        每张卡片里，都藏着一小段完整的推荐语。
+      </p>
+    </section>
+
+    <!-- ============ CONTACT / 联系 ============ -->
+    <section class="contact section" id="contact">
+      <div class="contact-card reveal">
+        <span class="tape contact-tape" aria-hidden="true"></span>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <p class="section-kicker kicker-light">
+              <span class="kicker-no">03</span>
+              <span class="kicker-label">SAY HI</span>
+              <span class="kicker-rule" aria-hidden="true"></span>
+            </p>
+            <h2 class="contact-title">来，<br><em>交个朋友。</em></h2>
+            <p class="contact-text">
+              如果你也在读什么、听什么，或者只是想说声 hi，
+              欢迎来 GitHub 找我。看到会认真看。
+            </p>
+            <div class="contact-actions">
+              <a class="btn btn-paper" href="https://github.com/ddby2022" target="_blank" rel="noopener noreferrer">
+                <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.32-1.28-1.67-1.28-1.67-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+                GitHub @ddby2022
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <button class="btn btn-outline-light" type="button" data-copy-link>
+                <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+                复制链接
+              </button>
+            </div>
+            <p class="contact-note">GitHub 是我最常出现的地方，欢迎来串门。</p>
+          </div>
+
+          <div class="contact-art" aria-hidden="true">
+            <div class="envelope">
+              <span class="envelope-flap"></span>
+              <span class="envelope-stamp">
+                <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="8"/><path d="M20 4v5M20 31v5M4 20h5M31 20h5M9 9l4 4M27 27l4 4M31 9l-4 4M13 27l-4 4"/></svg>
+                <small>DBY<br>2026</small>
+              </span>
+              <div class="envelope-address">
+                <span class="to-label">TO · 致</span>
+                <p>未来的朋友</p>
+                <span class="address-line"></span>
+                <span class="address-line address-line-short"></span>
+              </div>
+              <span class="envelope-postmark">SLOW<br>MAIL</span>
+              <span class="tape envelope-tape"></span>
+              <p class="envelope-note">见字如面，慢慢来。</p>
+            </div>
+            <svg class="contact-doodle" viewBox="0 0 100 74">
+              <path d="M8 54c11-16 24-25 40-27M48 27l-9-2M48 27l1 9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M74 12c-8 4-11 10-9 18 9 0 15-6 17-15M84 29c8 2 13 7 15 14-8 2-15-1-20-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© <span id="year">2026</span> DBY · 一页扁舟</p>
+      <p class="footer-made">图源：pixabay.com/zh/photos/autumn-road-trees-orange-10513262/ <span aria-hidden="true">♡</span></p>
+      <a class="back-top" href="#top">
+        回到顶部
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V5M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- 推荐详情弹窗 -->
+  <dialog class="rec-dialog" id="rec-dialog" aria-labelledby="dialog-title">
+    <article class="dialog-paper">
+      <button class="dialog-close" type="button" aria-label="关闭推荐详情">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg>
+      </button>
+      <p class="dialog-kicker" id="dialog-kicker"></p>
+      <h2 class="dialog-title" id="dialog-title"></h2>
+      <p class="dialog-meta" id="dialog-meta"></p>
+      <div class="dialog-divider" aria-hidden="true"><span>✦</span></div>
+      <div class="dialog-body" id="dialog-body"></div>
+      <div class="dialog-facts">
+        <div>
+          <span class="fact-label">适合场景</span>
+          <p id="dialog-scene"></p>
+        </div>
+        <div>
+          <span class="fact-label">去哪里找</span>
+          <p id="dialog-find"></p>
+        </div>
+      </div>
+      <p class="dialog-memo" id="dialog-memo"></p>
+      <p class="dialog-sign">— DBY 的手账 · 第 <span id="dialog-page">01</span> 页</p>
+    </article>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
