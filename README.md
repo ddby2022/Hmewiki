@@ -1,6 +1,6 @@
 # DBY 的手账
 
-一个暖色手账风的单页个人网站，by GPT 6.1 So1 and Deepseek 4.1 flash
+一个暖色手账风的单页个人网站，by GPT 6.1 Sol and Deepseek 4.1 flash
 
 ## 文件结构
 
