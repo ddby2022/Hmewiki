@@ -1,0 +1,8 @@
+{
+  "name": "mypage",
+  "installCommand": "",
+  "buildCommand": "",
+  "assets": {
+    "directory": "./"
+  }
+}
