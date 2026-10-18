@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" role="img" aria-labelledby="avatarTitle avatarDesc">
+  <title id="avatarTitle">DBY 的手绘头像</title>
+  <desc id="avatarDesc">暖色手绘插画：戴眼镜和芥末黄耳机的 DBY，穿米色毛衣和砖红色围巾，微笑着。</desc>
+  <defs>
+    <pattern id="paperDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#9c6a48" opacity=".18"/>
+    </pattern>
+    <filter id="softWobble" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="jumper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf1df"/>
+      <stop offset="1" stop-color="#eddfc7"/>
+    </linearGradient>
+    <linearGradient id="scarf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c36645"/>
+      <stop offset="1" stop-color="#a84d32"/>
+    </linearGradient>
+    <clipPath id="frameClip">
+      <rect width="480" height="560" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="480" height="560" fill="#e9c7a2"/>
+    <rect width="480" height="560" fill="url(#paperDots)"/>
+
+    <!-- 背景色块与光晕 -->
+    <circle cx="385" cy="105" r="116" fill="#f3d9b6" opacity=".9"/>
+    <path d="M58 560V350c0-120 74-190 182-190s182 70 182 190v210Z" fill="#d9966d" opacity=".52"/>
+    <path d="M90 560V362c0-94 63-150 150-150s150 56 150 150v198Z" fill="#e5b183" opacity=".38"/>
+
+    <!-- 手绘太阳 -->
+    <g stroke="#a95e3d" stroke-width="4" stroke-linecap="round" opacity=".82">
+      <circle cx="386" cy="102" r="35" fill="#e8b45a" stroke="#a95e3d"/>
+      <path d="M386 49v-15M386 170v-15M333 102h-15M454 102h-15M348 64l-11-11M435 151l-11-11M424 64l11-11M337 151l11-11"/>
+    </g>
+
+    <!-- 左侧手账涂鸦 -->
+    <g fill="none" stroke="#8a5437" stroke-width="3.4" stroke-linecap="round">
+      <path d="M37 403c20-2 31-19 30-38-19 3-31 18-30 38Z" fill="#8d9b78" opacity=".9"/>
+      <path d="M54 384c-7 31-8 62-3 92"/>
+      <path d="M50 438c-12-8-22-18-28-31M50 453c13-9 21-20 25-34"/>
+      <path d="M75 463c5 12 6 24 4 37" opacity=".5"/>
+      <path d="M93 478c5 8 7 16 7 26" opacity=".35"/>
+    </g>
+
+    <g fill="none" stroke="#a96a45" stroke-width="3.2" stroke-linecap="round" opacity=".75">
+      <path d="M415 346l4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/>
+      <path d="M71 205l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+      <path d="M404 438l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/>
+    </g>
+
+    <!-- 手写字 -->
+    <g transform="rotate(-8 80 104)" fill="#8d4a32">
+      <text x="46" y="104" font-family="Segoe Print, KaiTi, cursive" font-size="31" font-weight="700">hi,</text>
+      <path d="M43 118c20 8 38 6 55-3" fill="none" stroke="#8d4a32" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g filter="url(#softWobble)">
+      <!-- 肩部阴影 -->
+      <ellipse cx="240" cy="552" rx="215" ry="34" fill="#9f593d" opacity=".16"/>
+
+      <!-- 毛衣 -->
+      <path d="M35 560c9-95 84-147 205-147s196 52 205 147Z" fill="url(#jumper)" stroke="#463329" stroke-width="5"/>
+      <path d="M174 428c22 33 40 46 66 46s44-13 66-46" fill="none" stroke="#c5ad8d" stroke-width="4" stroke-linecap="round"/>
+      <path d="M87 512c-4 15-5 31-4 48M120 480c-4 14-6 29-6 46M370 494c3 20 4 42 3 66M343 469c3 16 5 32 5 48" fill="none" stroke="#cfbca0" stroke-width="3.4" stroke-linecap="round" opacity=".8"/>
+      <path d="M190 500c4 13 5 27 4 40M274 500c-3 14-3 27-2 40" fill="none" stroke="#d8c5a9" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+
+      <!-- 围巾 -->
+      <path d="M169 411c19 39 43 55 71 55s52-16 71-55c17 17 18 38 2 53-20 20-44 30-73 30s-53-10-73-30c-16-15-15-36 2-53Z" fill="url(#scarf)" stroke="#463329" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M286 459c9 24 14 48 12 72l-31 6c1-29-6-55-14-72Z" fill="#b3563a" stroke="#463329" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M273 511c8 4 15 5 23 3M277 525c6 3 12 3 18 1" fill="none" stroke="#7f3a27" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+      <path d="M183 420c19 24 36 37 57 37s38-13 57-37" fill="none" stroke="#e6a281" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+
+      <!-- 脖子 -->
+      <path d="M204 331v69c0 27 72 27 72 0v-69Z" fill="#eab78f" stroke="#463329" stroke-width="5"/>
+      <path d="M205 364c22 15 49 16 70 4" fill="none" stroke="#c98c67" stroke-width="3" opacity=".55"/>
+
+      <!-- 后发 -->
+      <path d="M126 287c-11-108 41-176 118-176 80 0 129 69 114 178-4 38-14 67-26 89l-20-15c12-37 19-77 16-113-35 18-68 25-100 25-40 0-72-9-99-30-2 39 5 81 18 119l-18 16c-14-29-22-59-23-93Z" fill="#493329" stroke="#3f2c23" stroke-width="5" stroke-linejoin="round"/>
+
+      <!-- 耳朵 -->
+      <ellipse cx="145" cy="293" rx="17" ry="29" fill="#eab78f" stroke="#463329" stroke-width="4"/>
+      <ellipse cx="335" cy="293" rx="17" ry="29" fill="#eab78f" stroke="#463329" stroke-width="4"/>
+      <path d="M142 284c5 4 7 9 6 15M338 284c-5 4-7 9-6 15" fill="none" stroke="#bd7c59" stroke-width="2.8" stroke-linecap="round"/>
+
+      <!-- 脸 -->
+      <ellipse cx="240" cy="274" rx="97" ry="113" fill="#efc19a" stroke="#463329" stroke-width="5"/>
+
+      <!-- 刘海 -->
+      <path d="M145 246c3-63 30-118 94-118 56 0 93 34 107 90 4 16 6 33 5 50-22-22-39-42-56-75-21 29-53 43-96 45-20 1-38 3-54 8Z" fill="#493329" stroke="#3f2c23" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M169 158c18-18 39-28 67-30" fill="none" stroke="#6d5141" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+      <path d="M292 148c14 8 24 19 31 33" fill="none" stroke="#6d5141" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+
+      <!-- 眉毛 -->
+      <path d="M167 252c11-8 26-9 39-3M274 249c13-6 28-5 39 3" fill="none" stroke="#4b3328" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- 眼睛 -->
+      <ellipse cx="191" cy="288" rx="7" ry="9.5" fill="#3d2b22"/>
+      <ellipse cx="289" cy="288" rx="7" ry="9.5" fill="#3d2b22"/>
+      <circle cx="194" cy="284" r="2.6" fill="#fff8ec"/>
+      <circle cx="292" cy="284" r="2.6" fill="#fff8ec"/>
+
+      <!-- 腮红 -->
+      <ellipse cx="161" cy="320" rx="21" ry="10" fill="#dd8e72" opacity=".35"/>
+      <ellipse cx="319" cy="320" rx="21" ry="10" fill="#dd8e72" opacity=".35"/>
+
+      <!-- 鼻子与嘴 -->
+      <path d="M239 303c-2 10-3 18 4 22" fill="none" stroke="#bd7c59" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M219 342c12 12 30 12 42 0" fill="none" stroke="#8f4b35" stroke-width="4.2" stroke-linecap="round"/>
+      <path d="M231 350c6 5 13 5 19 0" fill="none" stroke="#c07e62" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+
+      <!-- 眼镜 -->
+      <g fill="#fdf4e6" fill-opacity=".16" stroke="#463329" stroke-width="5">
+        <rect x="147" y="258" width="85" height="62" rx="21"/>
+        <rect x="248" y="258" width="85" height="62" rx="21"/>
+      </g>
+      <path d="M232 283c5-5 11-5 16 0M147 283h-17M333 283h18" fill="none" stroke="#463329" stroke-width="5" stroke-linecap="round"/>
+      <path d="M157 275c4-7 10-11 17-12" fill="none" stroke="#fff9ef" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+
+      <!-- 耳机 -->
+      <path d="M119 244c0-120 242-120 242 0" fill="none" stroke="#463329" stroke-width="27" stroke-linecap="round"/>
+      <path d="M119 244c0-120 242-120 242 0" fill="none" stroke="#d4a141" stroke-width="17" stroke-linecap="round"/>
+      <path d="M129 208c10-62 52-97 111-97" fill="none" stroke="#e7c06c" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+      <g stroke="#463329" stroke-width="5">
+        <rect x="98" y="236" width="48" height="86" rx="23" fill="#b75b3d"/>
+        <rect x="334" y="236" width="48" height="86" rx="23" fill="#b75b3d"/>
+        <rect x="113" y="257" width="18" height="43" rx="9" fill="#dda361"/>
+        <rect x="349" y="257" width="18" height="43" rx="9" fill="#dda361"/>
+      </g>
+      <path d="M129 330c-5 22-2 39 9 52" fill="none" stroke="#463329" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="139" cy="386" r="4" fill="#463329"/>
+
+      <!-- 毛衣上的小胸针 -->
+      <g transform="translate(326 458) rotate(12)">
+        <path d="M0 13C-14 3-21-12-8-17 2-20 8-12 11-8c3-6 10-12 19-7 13 8 2 22-15 30Z" fill="#d4a141" stroke="#463329" stroke-width="3"/>
+        <path d="M10 19c3-8 8-14 15-19" fill="none" stroke="#8c5d2f" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- 画面边缘的小装饰 -->
+    <g fill="none" stroke="#7f4b31" stroke-width="3" stroke-linecap="round" opacity=".6">
+      <path d="M29 74c11-7 22-7 33 1M29 83c11 4 22 5 33 1"/>
+      <path d="M432 491c10 6 18 15 22 26M444 484c8 8 13 18 15 30"/>
+    </g>
+    <path d="M374 515c12-11 27-15 44-10-9 15-24 22-44 10Z" fill="#899776" opacity=".7"/>
+    <path d="M398 512c-2 13-4 26-3 38" fill="none" stroke="#6f7d5d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <rect x="2.5" y="2.5" width="475" height="555" rx="17" fill="none" stroke="#463329" stroke-width="5"/>
+</svg>
