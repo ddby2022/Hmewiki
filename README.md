@@ -1,6 +1,6 @@
 # DBY 的手账
 
-一个暖色手账风的单页个人网站，by GPT 6.1 Sol and Deepseek 4.1 flash
+一个暖色手账风的单页个人网站模板
 
 ## 文件结构
 
@@ -10,7 +10,7 @@ mesite/
 ├─ styles.css          # 手账风视觉、布局、响应式、动效
 ├─ script.js           # 导航、日期、弹窗、复制链接、滚动入场
 ├─ assets/
-│  ├─ avatar.svg       # 手绘头像
+│  ├─ avatar.svg       # 神秘东西
 │  └─ favicon.svg      # 站点图标
 └─ README.md
 ```
